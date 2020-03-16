@@ -1,1 +1,45 @@
-<!-- In this file you are going to write the CSS code -->
+li{
+    display:inline;
+
+}
+.transparent_nav{
+    background: rgba(250, 0, 0, 0.7);
+   position: fixed;
+   top: 0;
+    width: 100%;
+}
+a{
+
+    text-decoration: none;
+    padding:22px;
+}
+
+.nav_bar{
+    margin-right: 70px;
+    float: right;
+}
+img{
+    margin-left: 85px;
+}
+
+.cta{
+    padding: 11px;
+    padding-top: 29px;
+    position: static;
+    top:300px;
+    background-color: rgba(160,160,169,0.7);
+}
+
+#cta_link{
+    position: relative;
+    margin-left: 1099px;
+    bottom: 16px;
+}
+p{
+    color: white;
+    font-size: 18px;
+}
+a#cta_link:hover{
+    background-color: skyblue;
+}
+
